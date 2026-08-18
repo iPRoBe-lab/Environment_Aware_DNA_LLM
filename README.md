@@ -20,7 +20,7 @@ The `Code/` directory contains scripts for constructing the stress-aware AgroNT 
   Extracts stress-conditioned sequence representations from the fine-tuned models. DNA-token embeddings generated under the different environmental contexts are used for downstream representation analysis and locus prioritization.
 
 * **`counterfactual_embeddings.py`**
-  Generates counterfactual representations of the same DNA sequence under alternative environmental contexts. These representations enable measurement of the stress-induced embedding shift by comparing a sequence representation under a target stress condition with its corresponding control representation.
+  Generates counterfactual representations of the heat-, drought-, and heat-drought-associated DNA sequences under <NO_STRESS> environmental contexts. These representations enable measurement of the stress-induced embedding shift by comparing a sequence representation under a target stress condition with its corresponding control representation.
 
 * **`sequence_scoring.py`**
   Computes sequence-level prioritization scores from the stress-aware model outputs. The script quantifies stress-induced embedding shifts and attention concentration and combines their percentile ranks to calculate the priority score used to rank candidate genomic loci.
