@@ -7,7 +7,7 @@ Abiotic stresses such as heat and drought severely reduce maize productivity yet
 
 ![Image not available.](image/approach.png)
 
-### Code 
+### DNA-LLM Code:
 
 The `Code/` directory contains scripts for constructing the stress-aware AgroNT model, training the model, extracting sequence representations, and computing the sequence-level prioritization scores used in the study.
 
