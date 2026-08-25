@@ -1,0 +1,16 @@
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/yield_NO_STRESS.csv,results/yield_NO_STRESS_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/yield_HEAT_STRESSED.csv,results/yield_HEAT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/yield_DROUGHT_STRESSED.csv,results/yield_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/yield_HEAT_DROUGHT_STRESSED.csv,results/yield_HEAT_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/anthesis_NO_STRESS.csv,results/anthesis_NO_STRESS_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/anthesis_HEAT_STRESSED.csv,results/anthesis_HEAT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/anthesis_DROUGHT_STRESSED.csv,results/anthesis_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/anthesis_HEAT_DROUGHT_STRESSED.csv,results/anthesis_HEAT_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/silking_NO_STRESS.csv,results/silking_NO_STRESS_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/silking_HEAT_STRESSED.csv,results/silking_HEAT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/silking_DROUGHT_STRESSED.csv,results/silking_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/silking_HEAT_DROUGHT_STRESSED.csv,results/silking_HEAT_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/ASI_NO_STRESS.csv,results/ASI_NO_STRESS_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/ASI_HEAT_STRESSED.csv,results/ASI_HEAT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/ASI_DROUGHT_STRESSED.csv,results/ASI_DROUGHT_STRESSED_BLINK,BLINK
+data/GENO.csv,data/snpnames.csv,phenotypes/blue_pheno/ASI_HEAT_DROUGHT_STRESSED.csv,results/ASI_HEAT_DROUGHT_STRESSED_BLINK,BLINK

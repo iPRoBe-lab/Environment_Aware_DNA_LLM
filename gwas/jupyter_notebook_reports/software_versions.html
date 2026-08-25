@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software &amp; versions — maize stress GWAS</title>
+<style>
+  :root{ --ink:#1c2530; --muted:#5d6b7a; --line:#e2e7ee; --accent:#2f6f4f; --chip:#eef3f1; }
+  *{ box-sizing:border-box; }
+  body{ font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        color:var(--ink); margin:0; background:#f7f9fb; }
+  .wrap{ max-width:820px; margin:0 auto; padding:48px 28px 80px; }
+  header{ border-bottom:3px solid var(--accent); padding-bottom:16px; margin-bottom:20px; }
+  h1{ font-size:26px; margin:0 0 6px; letter-spacing:-.2px; }
+  .sub{ color:var(--muted); font-size:15px; }
+  p{ margin:12px 0; }
+  code{ font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace; font-size:13.5px;
+        background:var(--chip); padding:1px 5px; border-radius:4px; }
+  table{ border-collapse:collapse; width:100%; margin:16px 0; font-size:14.5px; }
+  th,td{ text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th{ background:var(--chip); font-weight:600; }
+  td code{ background:none; padding:0; }
+  footer{ margin-top:36px; padding-top:14px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Software &amp; versions</h1>
+  <div class="sub">Stress-conditioned maize GWAS — tools and versions used across the analysis</div>
+</header>
+
+<table>
+  <tr><th>Tool / algorithm</th><th>Version</th><th>Role</th></tr>
+  <tr><td>R</td><td>4.5.3</td><td>Phenotype models; GWAS driver</td></tr>
+  <tr><td>GAPIT</td><td>4.1.0</td><td>GWAS framework (R package)</td></tr>
+  <tr><td>BLINK</td><td>within GAPIT 4.1.0</td><td>Multi-locus association model</td></tr>
+  <tr><td>base R <code>stats::lm</code></td><td>R 4.5.3</td><td>Fixed-effects BLUEs</td></tr>
+  <tr><td>PLINK</td><td>v1.9.0-b.8 (22 Oct 2024)</td><td>Pairwise genotypic r²</td></tr>
+  <tr><td>Python</td><td>3.10.14</td><td>LD-decay fit; liftover scripting</td></tr>
+  <tr><td>SciPy / NumPy / pandas</td><td>1.13.1 / 1.26.4 / 2.2.3</td><td>Hill–Weir <code>curve_fit</code>, binning, tables</td></tr>
+  <tr><td>Hill–Weir (Remington form) + background</td><td>—</td><td>Expected-r² LD-decay model</td></tr>
+  <tr><td>CrossMap</td><td>0.7.0</td><td>Chain-based coordinate liftover</td></tr>
+  <tr><td>Nextflow</td><td>25.10.4 (JDK 17)</td><td>GWAS job orchestration</td></tr>
+  <tr><td>MaizeGDB chain files</td><td>v4↔v5 (ATAC / A2Amapper)</td><td>Assembly alignment for liftover</td></tr>
+  <tr><td>Reference genome</td><td>Zm-B73-REFERENCE-NAM-5.0</td><td>Coordinate system (v5)</td></tr>
+</table>
+
+<footer>
+  Software record for the maize stress-GWAS analysis. GAPIT and R versions are per the analysis run environment.
+</footer>
+
+</div>
+</body>
+</html>
